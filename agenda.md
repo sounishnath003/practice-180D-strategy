@@ -1,14 +1,20 @@
 # Highlights for the Practice:
-To know the entire list and other stuffs like Projects, Resume, how to give interviews�.watch the entire video at: 
-
+To know the entire list and other stuffs like Projects, Resume, how to give interviews. watch the entire video at:
 `https://www.youtube.com/watch?v=WNtzUR_MwUQ`
+
+[![C++|Programming](https://devfolio-og-img.now.sh/**Sounish%20Nath**.png%3Fmd%3D1%26fontSize%3D110px)](https://nodesource.com/products/nsolid)
+
+
 
 Subscribe to the channel. :) (take u forward) 
 (Channel run by Amazon | Media.net(Directi) | GFG) employee, CM at Codfeorces and 6* at Codechef) 
 
-`Adding the credits above as a lot of people were sharing this pdf without giving credits. `
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-## Day1: (Arrays)
+
+>Adding the credits above as a lot of people were sharing this pdf without giving credits.
+
+## `Day1: (Arrays)`
 
 1. ✅ Find the duplicate in an array of N integers. 
 2. ✅ Sort an array of 0's 1's 2's without using extra space or sorting algo 
@@ -17,13 +23,13 @@ Subscribe to the channel. :) (take u forward)
 5. ✅ Kadane's Algorithm 
 6. ✅ Merge Overlapping Subintervals 
 
-Day2: (Arrays)
-Set Matrix Zeros 
-Pascal Triangle 
-Next Permutation 
-Inversion of Array (Using Merge Sort) 
-Stock Buy and Sell 
-Rotate Matrix  
+## `Day2: (Arrays)`
+1. Set Matrix Zeros 
+2. Pascal Triangle 
+3. Next Permutation 
+4. Inversion of Array (Using Merge Sort) 
+5. Stock Buy and Sell 
+6. Rotate Matrix  
 
 Day3: (Math)
 Excel Column Number 
