@@ -24,10 +24,10 @@ Subscribe to the channel. :) (take u forward)
 6. ✅ Merge Overlapping Subintervals 
 
 ## `Day2: (Arrays)`
-1. Set Matrix Zeros 
-2. Pascal Triangle 
-3. Next Permutation 
-4. Inversion of Array (Using Merge Sort) 
+1. ✅ Set Matrix Zeros 
+2. ❌ Pascal Triangle 
+3. ✅ Next Permutation 
+4. ✅ Inversion of Array (Using Merge Sort) 
 5. Stock Buy and Sell 
 6. Rotate Matrix  
 
