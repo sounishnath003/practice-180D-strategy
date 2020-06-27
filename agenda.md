@@ -2,9 +2,11 @@
 To know the entire list and other stuffs like Projects, Resume, how to give interviews. watch the entire video at:
 `https://www.youtube.com/watch?v=WNtzUR_MwUQ`
 
-[![C++|Programming](https://devfolio-og-img.now.sh/**Sounish%20Nath**.png%3Fmd%3D1%26fontSize%3D110px)](https://nodesource.com/products/nsolid)
 
+[![C++|Programming](https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-6.png)](https://nodesource.com/products/nsolid)
 
+[![C++|Programming](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/150px-ISO_C%2B%2B_Logo.svg.png)](https://nodesource.com/products/nsolid)
+[![C++|Programming](https://lh3.googleusercontent.com/proxy/YrEg-pfRq4VPx4h6QNkNupsTOPBDIgYq0rJ9O4mkT498DTG26Ru7ESofAbMbpo_8OgPTegRjwEcJFsSFvz8f7ZGipxJRwwJw67Au9IaQrxwRxTsgIk3nEvsnmnTAGYfpIg4)](https://nodesource.com/products/nsolid)
 
 Subscribe to the channel. :) (take u forward) 
 (Channel run by Amazon | Media.net(Directi) | GFG) employee, CM at Codfeorces and 6* at Codechef) 
@@ -28,24 +30,23 @@ Subscribe to the channel. :) (take u forward)
 2. ❌ Pascal Triangle 
 3. ✅ Next Permutation 
 4. ✅ Inversion of Array (Using Merge Sort) 
-5. Stock Buy and Sell 
-6. Rotate Matrix  
+5. ✅ Stock Buy and Sell 
 
 Day3: (Math)
-Excel Column Number 
-Find n^x in log N 
-Count trailing zeros in factorial of a number 
-Find GCD in Log N 
-Grid Unique Paths 
-Go through Puzzles from GFG (Search on own) 
+1. ✅ Excel Column Number 
+2. ✅ Find n^x in log N 
+3. 😒 Count trailing zeros in factorial of a number 
+4. ✅ Find GCD in Log N 
+5. Grid Unique Paths 
+6. Go through Puzzles from GFG (Search on own) 
 
 Day4: (Hashing)
-2 Sum problem 
-4 Sum problem 
-Longest Consecutive Sequence 
-Longest Subarray with 0 sum 
-Count number of subarrays with given XOR(this clears a lot of problems) 
-Longest substring without repeat 
+1. 2 Sum problem 
+2. 4 Sum problem 
+3. Longest Consecutive Sequence 
+4. Longest Subarray with 0 sum 
+5. Count number of subarrays with given XOR(this  clears a lot of problems) 
+7. Longest substring without repeat 
 
 Day5: (LinkedList) 
 Reverse a LinkedList 
