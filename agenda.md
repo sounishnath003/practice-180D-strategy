@@ -1,4 +1,8 @@
-# Highlights for the Practice:
+# Highlights For Interview Practice:
+All the interview practice most(*)asked problems come across top `product based` companies, like - `[Amazon, Google, FaceBook, NetFlix]`, do practice hard & let `success` be the `noise!.`
+
+## Welcome to 180D Strategy in programming
+
 To know the entire list and other stuffs like Projects, Resume, how to give interviews. watch the entire video at:
 `https://www.youtube.com/watch?v=WNtzUR_MwUQ`
 
@@ -56,15 +60,14 @@ Subscribe to the channel. :) (take u forward)
 5. Delete a given Node when a node is given. (0(1) solution) 
 6. Add two numbers as LinkedList  
 
-## `Day6: `
-Find intersection point of Y LinkedList 
-Check if a LinkedList is palindrome or not. 
-Reverse a LinkedList in groups. 
-Detect a cycle and removing loop(two different questions and same concept) 
-Flattening of a LinkedList 
-Rotate a LinkedList 
-Clone a Linked List with random and next pointer. 
-. 
+## `Day6: (Advanced LinkedList) `
+1. Find intersection point of Y LinkedList 
+2. Check if a LinkedList is palindrome or not. 
+3. Reverse a LinkedList in groups. 
+4. Detect a cycle and removing loop(two different questions and same concept) 
+6. Flattening of a LinkedList 
+7. Rotate a LinkedList 
+8. Clone a Linked List with random and next  pointer. 
 
 ## `Day7: (2-pointer) `
 Merge two sorted LinkedLists 
