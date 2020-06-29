@@ -48,8 +48,8 @@ Subscribe to the channel. :) (take u forward)
 1. ✅ 2 Sum problem 
 2. ✅ 4 Sum problem 
 3. ✅ Longest Consecutive Sequence 
-4. Longest Subarray with 0 sum 
-5. Count number of subarrays with given XOR(this  clears a lot of problems) 
+4. ✅ Longest Subarray with 0 sum 
+5. ✅ Count number of subarrays with given XOR(this  clears a lot of problems) 
 7. Longest substring without repeat 
 
 ## `Day5: (LinkedList) `

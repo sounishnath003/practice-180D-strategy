@@ -1,10 +1,7 @@
 # Longest Consecutive Sequence
 # nums = [36, 41, 56, 35, 44, 33, 34, 92, 43, 32, 42]
 nums = [1, 9, 3, 10, 4, 20, 2]
-
-cache = set()
-for x in nums:
-    cache.add(x)
+cache = set( x for x in nums )
 answer = 0
 for x in nums:
     if x-1 in nums:
