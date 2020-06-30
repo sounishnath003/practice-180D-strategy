@@ -1,6 +1,6 @@
 /*
     statement - Count number of subarrays with 
-                given XOR.(this clears a lot of problems)
+    given XOR.(this clears a lot of problems)
     author - sounishnath003
     date - 30-06-2020
     time - O(N) approch

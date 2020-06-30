@@ -50,7 +50,7 @@ Subscribe to the channel. :) (take u forward)
 3. ✅ Longest Consecutive Sequence 
 4. ✅ Longest Subarray with 0 sum 
 5. ✅ Count number of subarrays with given XOR(this  clears a lot of problems) 
-7. Longest substring without repeat 
+7. ✅ Longest substring without repeat 
 
 ## `Day5: (LinkedList) `
 1. Reverse a LinkedList 
