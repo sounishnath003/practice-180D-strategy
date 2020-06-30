@@ -53,7 +53,7 @@ Subscribe to the channel. :) (sounish nath)
 7. ✅ Longest substring without repeat 
 
 ## `Day5: (LinkedList) `
-1. Reverse a LinkedList 
+1. ✅ Reverse a LinkedList 
 2. Find middle of LinkedList 
 3. Merge two sorted Linked List 
 4. Remove N-th node from back of LinkedList 
