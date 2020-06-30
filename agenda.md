@@ -4,7 +4,7 @@ All the interview practice most(*)asked problems come across top `product based`
 ## Welcome to 180D Strategy in programming
 
 To know the entire list and other stuffs like Projects, Resume, how to give interviews. watch the entire video at:
-`https://www.youtube.com/watch?v=WNtzUR_MwUQ`
+`https://www.youtube.com/watch?v=xxxx`
 
 
 [![C++|Programming](https://media.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-6.png)](https://nodesource.com/products/nsolid)
