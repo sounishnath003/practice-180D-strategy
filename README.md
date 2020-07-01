@@ -1,5 +1,6 @@
 # Highlights For Interview Practice:
-All the interview practice most(*)asked problems come across top `product based` companies, like - `[Amazon, Google, FaceBook, NetFlix]`, do practice hard & let `success` be the `noise!.`
+
+>All the interview practice most(*)asked problems come across top `product based` companies, like - `[Amazon, Google, FaceBook, NetFlix]`, do practice hard & let `success` be the `noise!.`
 
 ## Welcome to 180D Strategy in programming
 
