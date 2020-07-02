@@ -58,7 +58,7 @@ Subscribe to the channel. :) (sounish nath)
 3. ✅ Merge two sorted Linked List 
 4. ✅ Remove N-th node from back of LinkedList 
 5. ✅ Delete a given Node when a node is given. (0(1) solution) 
-6. Add two numbers as LinkedList  
+6. ✅ Add two numbers as LinkedList  
 
 ## `Day6: (Advanced LinkedList) `
 1. Find intersection point of Y LinkedList 
