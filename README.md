@@ -61,7 +61,7 @@ Subscribe to the channel. :) (sounish nath)
 6. ✅ Add two numbers as LinkedList  
 
 ## `Day6: (Advanced LinkedList) `
-1. Find intersection point of Y LinkedList 
+1. ✅ Find intersection point of Y LinkedList 
 2. Check if a LinkedList is palindrome or not. 
 3. Reverse a LinkedList in groups. 
 4. Detect a cycle and removing loop(two different questions and same concept) 
