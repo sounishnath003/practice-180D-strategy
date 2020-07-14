@@ -17,6 +17,7 @@ Subscribe to the channel. :) (sounish nath)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+[![Run on Repl.it](https://repl.it/badge/github/sounishnath003/practice-180D-strategy)](https://repl.it/github/sounishnath003/practice-180D-strategy)
 
 >Adding the credits above as a lot of people were sharing this pdf without giving credits.
 
