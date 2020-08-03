@@ -1,6 +1,6 @@
+// Problem Link
+// https://www.hackerrank.com/challenges/2d-array/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays
 #include <bits/stdc++.h>
-#include <iostream>
-#include <algorithm>
 using namespace std;
 
 int hourglassSum(vector<vector<int>> arr) {
@@ -23,8 +23,7 @@ int hourglassSum(vector<vector<int>> arr) {
     return sum;
 }
 
-int main()
-{
+int main() {
     ofstream fout(getenv("OUTPUT_PATH"));
 
     vector<vector<int>> arr(6);
@@ -39,7 +38,7 @@ int main()
 
     int result = hourglassSum(arr);
 
-    cout << result << "\n";
+    fout << result << "\n";
 
     fout.close();
 
