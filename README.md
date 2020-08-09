@@ -2,8 +2,8 @@
 All the interview practice most(*)asked problems come across top `product based` companies, like - `[Amazon, Google, FaceBook, NetFlix]`, do practice hard & let `success` be the `noise!.`
 
 ## Solved 3 out of 5 | #1395 Ranked In Scalar Hiring Challange
->I got to solve only 3 problems. However, secured Rank 1390 of 26000+ participants
->I Really felt happy solving 3 DSA (Most Interesting Questions)
+>I got to solve only **3 problems**. However, secured Rank *1390 of 26000+ participants*
+>I Really felt happy solving **3 DSA (Most Interesting Questions)**
 
 ## Welcome to 180D Strategy in programming
 
