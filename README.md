@@ -8,7 +8,7 @@ The event was **super aweosme**, with 4 problems. However there's a **Pattern Pr
 I got to solve only **3 problems**. However, secured Rank *1390 of 26000+ participants*
 I Really felt happy solving **3 DSA (Most Interesting Questions)**
 
-|   	|   	|   	|
+|# Rank   	| Name  	| Bounty  	|
 |---	|---	|---	|
 |  1 	|kalash-gupta   	| 100.0  	|
 |  2 	|Rohit Goyal   	|  80.20 	|
