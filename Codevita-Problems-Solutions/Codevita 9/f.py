@@ -61,7 +61,6 @@ def strNumber(val1, val2):
 
     return [t, v]
 
-
 def test_case():
     text = "load"
     n = 3

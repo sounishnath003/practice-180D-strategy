@@ -58,5 +58,6 @@ int main() {
     else {
         cout << "Both are Right" << endl;
     }
+    
     return 0;
 }

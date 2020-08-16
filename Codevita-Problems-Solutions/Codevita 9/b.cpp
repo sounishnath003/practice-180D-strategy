@@ -32,7 +32,6 @@ void _fSecretSounish(int i, vector<int> &binaries, int sizz , int ss, int &ttox)
     _fSecretSounish(i + 1, binaries, sizz, ss, ttox) ; // without choice ing the state
 }
 
-
 int main(int argc, char const *argv[]){
     IOS ;
    
@@ -78,11 +77,9 @@ int main(int argc, char const *argv[]){
         _ttotx = _ttotx >>  1 ;
         index++ ;
     }
-    // print(bincount) 
     for(int i = count_bits - 1; i >= 0; i--){
         cout << bincount[i] ;
     }
-    
 
     return 0;
 }
