@@ -1,43 +1,62 @@
+// author: Sounish Nath
+// time: 15-08-2020, Codevita E
 #include<bits/stdc++.h>
 using namespace std ;
 #define fo(i, n) for(int i = 0; i < n; i++)
 #define foo(i, k, n) for(int i = k; i < n; i++)
 #define deb(x) {cout << #x << " " << x << endl ;}
 #define IOS ios::sync_with_stdio(false), cin.tie(0) ;
-#define print(nums) { for(auto &&x : nums) { cout << x << " " ; } cout << endl ; }
 #define MOD = 1e9+7 ;
 const int N = 1e6+7 ;
-typedef long long ll ;
+typedef long long int ll;
 
-int main(int argc, char const *argv[]){
-    IOS ;
-   
-    int n;
-    int k;
-    int totalsum = 0, tmp;
-    cin >> n >> k ;
-    vector<int> nums(n) ;
-    auto remove_element = [&](vector<int> &nums) {
-        pop_heap(nums.begin(), nums.end()) ;
-        nums.pop_back() ;
-    };
-    fo(i, n) {
-        cin >> tmp;
-        totalsum += tmp ;
-        nums.push_back(tmp) ;
+int main() {
+    int n, w, v, d;
+    cin >> n >> w >> d;
+    int a[n];
+    int sum[n] = {};
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
     }
-    make_heap(nums.begin(), nums.end());
-    print(nums)
-    ll maximum = 0, answer = 0 ;
-    fo(i, k)     {
-        maximum = nums.front() ;
-        totalsum = maximum ;
-        remove_element(nums);
-        answer = maximum/2 ;
-        nums.push_back(answer) ;
-        push_heap(nums.begin(), nums.end()) ;
+    vector<ll> dpw(n + 10);
+    vector<ll> dpwd(n + 10);
+    ll temp = 0;
+    for (int i = n - 1; i >= 0; i--) {
+        temp = 0;
+        for (int j = 0; j < w && i + j < n; j++) {
+            temp += a[i + j];
+            if (i + j + 2 < n) {
+                dpw[i] = max(dpw[i], temp + dpw[i + j + 2]);
+            }
+            else {
+                dpw[i] = max(dpw[i], temp);
+            }
+        }
+        dpw[i] = max(dpw[i], dpw[i + 1]);
     }
-    cout << totalsum << endl ;
-
+    w += d;
+    temp = 0;
+    for (int i = n - 1; i >= 0; i--) {
+        temp = 0;
+        for (int j = 0; j < w && i + j < n; j++) {
+            temp += a[i + j];
+            if (i + j + 2 < n) {
+                dpwd[i] = max(dpwd[i], temp + dpwd[i + j + 2]);
+            }
+            else {
+                dpwd[i] = max(dpwd[i], temp);
+            }
+        }
+        dpwd[i] = max(dpwd[i], dpwd[i + 1]);
+    }
+    if (dpw[0] < dpwd[0]) {
+        cout << "Right" << " " << abs(dpw[0] - dpwd[0]) << endl;
+    }
+    else if (dpw[0] > dpwd[0]) {
+        cout << "Wrong" << " " << abs(dpw[0] - dpwd[0]) << endl;
+    }
+    else {
+        cout << "Both are Right" << endl;
+    }
     return 0;
 }
