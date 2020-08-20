@@ -1,18 +1,21 @@
 // Add two numbers as LinkedList
 #include<bits/stdc++.h>
+#define print(nums) { for(auto &&x : nums) { cout << x << " " ; } cout << endl ; }
 using namespace std ;
-#define fo(i, n) for(int i = 0; i < n; i++)
-#define foo(i, k, n) for(int i = k; i < n; i++)
-#define deb(x) {cout << #x << " " << x << endl ;}
-#define IOS ios::sync_with_stdio(false), cin.tie(0) ;
-#define MOD = 1e9+7 ;
-const int N = 1e6+7 ;
 
 struct Node {
     int data ;
-    Node *next ;
-    Node(int d) : data(d), next(NULL) {} 
+    Node* next ;
+    Node(int data) : data(data), next(NULL) { }
 };
+
+void _print(Node *root) {
+    while(root) {
+        cout << root->data << " " ;
+        root = root->next ;
+    }
+    cout << endl ;
+}
 
 Node *addTwoList(Node *root1, Node *root2) {
     if(!root1) {
@@ -22,43 +25,57 @@ Node *addTwoList(Node *root1, Node *root2) {
         return root1 ;
     }
     Node *answer = NULL, *t, *prev(NULL) ;
-    int cursum = 0, carry = 0 ;
+    int cursum = 0, cry = 0 ;
     while(root1 or root2) {
-        cursum = carry + (root1 ? root1->data : 0 ) + (root2 ? root2->data : 0) ;
-        carry = cursum > 9 ? 1 : 0 ;
+        cursum = cry + ( root1 ? root1->data : 0 ) + ( root2 ? root2->data : 0 ) ;
+        cry = (cursum > 9) ? 1 : 0 ;
         cursum %= 10 ;
         t = new Node(cursum) ;
-        if(!answer) {
-            answer = t ;
-        }else prev->next = t ;
-        if(root1) {root1 = root1->next ;}
-        if(root2) {root2 = root2->next ;}
-    } 
-    if(carry > 0) { t->next = new Node(carry); };
+        if(!answer) { answer = t ; }
+        else {
+            prev->next = t ;
+        }
+        prev = t ;
+        if(root1) { root1 = root1->next ; }
+        if(root2) { root2 = root2->next ; }
+    }
+    if(cry > 0) {
+        t->next = new Node(cry) ;
+    }
     return answer ;
 }
 
-void print(Node *root) {
-    while(root) {
-        cout << root->data << " " ;
-        root = root->next ;
+Node* optimisedAddList(Node* root1, Node* root2) {
+    Node* ans = nullptr ;
+    Node** node = &ans ;
+    int sum = 0 ;
+    while(root1 or root2 or sum > 0) {
+        if(root1) { sum += root1->data ; root1 = root1->next ; }
+        if(root2) { sum += root2->data ; root2 = root2->next ; }
+        (*node) = new Node(sum % 10) ;
+        sum = sum / 10 ;
+        node = &((*node)->next) ;
     }
-    cout << endl ;
+    return ans ;
 }
 
-int main(int argc, char const *argv[]){
-    IOS ;
-   
-    Node *root1 = new Node(2) ;
-    root1->next = new Node(3) ;
-    Node *root2 = new Node(1) ;
-    root2->next = new Node(0) ;
-    print(root1) ;
-    print(root2) ;
 
-    Node *answer = addTwoList(root1=root1, root2=root2) ;
-    print(answer) ;
+int main(int argc, char const *argv[]) {
+    ios::sync_with_stdio(false) ;
+    cin.tie(NULL) ;
     
+    Node* root = new Node(2);
+    root->next = new Node(4);
+    root->next->next = new Node(3) ;
 
+    Node* root2 = new Node(5);
+    root2->next = new Node(6) ;
+    root2->next->next = new Node(4) ;
+
+    Node *ans = optimisedAddList(root, root2);
+    _print(ans) ;
+
+    
+    
     return 0;
 }
