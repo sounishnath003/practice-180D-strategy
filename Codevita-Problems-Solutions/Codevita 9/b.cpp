@@ -42,7 +42,7 @@ int main(int argc, char const *argv[]){
         cin >> nums[i] ;
     }
     int mm = *max_element(nums.begin(), nums.end());
-    auto countBITS = [&](int n){
+    auto countBITS = [&] (int n){
         int c = 0 ;
         while(n){
             c++ ;
