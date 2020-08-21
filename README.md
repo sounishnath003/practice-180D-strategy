@@ -2,11 +2,18 @@
 All the interview practice most(*)asked problems come across top `product based` companies, like - `[Amazon, Google, FaceBook, NetFlix]`, do practice hard & let `success` be the `noise!.`
 
 ## 🎉 Solved 3 out of 4 | Short competetion with Really good Mental thinking Problems
-The event was super aweosme, with 4 problems. However there's a **Pattern Printing(Very New Printing)** code, to solve.
+The event was **super aweosme**, with 4 problems. However there's a **Pattern Printing(Very New Printing)** code, to solve.
 
 ## 🎉 Solved 3 out of 5 | #1395 Ranked In Scalar Hiring Challange
 I got to solve only **3 problems**. However, secured Rank *1390 of 26000+ participants*
 I Really felt happy solving **3 DSA (Most Interesting Questions)**
+
+|# Rank   	| Name  	| Bounty  	|
+|---	|---	|---	|
+|  1 	|kalash-gupta   	| 100.0  	|
+|  2 	|Rohit Goyal   	|  80.20 	|
+|  ... 	|...   	|  ... 	|
+|  1395 	|sounishnath003   	| 30.0  	|
 
 ## Welcome to 180D Strategy in programming
 
