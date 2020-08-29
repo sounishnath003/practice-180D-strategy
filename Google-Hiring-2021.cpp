@@ -5,21 +5,17 @@ using namespace std ;
 void f(string &s, int &cost, vector<vector<int>> &grid, unordered_map<char, int>& alpha) {
     int tcost = 0 ;
     for(int i = 0 ; i < (int) s.size(); i++) {
-            if(i == 0) {
-                tcost += grid[alpha[s[i]] - 1][alpha[s[i]] - 1] ;
-            }else{
-                tcost += grid[alpha[s[i - 1]] - 1][alpha[s[i]] - 1] ;
-            }
-        }
-        cost = min(tcost, cost) ;
+          tcost += (i == 0) ? grid[alpha[s[i]] - 1][alpha[s[i]] - 1] : grid[alpha[s[i - 1]] - 1][alpha[s[i]] - 1] ;
+    }
+    cost = min(tcost, cost) ;
 }
 
 int main(int argc, char const *argv[]) {
     ios::sync_with_stdio(false) ;
     cin.tie(NULL) ;
     
-    string s ;
     int n ;
+    string s ;
     int cost = 2e9 ;
     cin >> n ;
     vector<vector<int>> grid(n, vector<int>(n)) ;
@@ -34,16 +30,16 @@ int main(int argc, char const *argv[]) {
         {'b', 2},  
         {'c', 3},  
         {'d', 4},
-        {'e', 5},  
+        {'e', 5},
     };
     do{
         f(s, cost, grid, alpha) ;
     }while(next_permutation(s.begin(), s.end())) ;
     cout << cost << endl ;
-    
-    
+       
     return 0;
 }
+
 
 /*
 5
