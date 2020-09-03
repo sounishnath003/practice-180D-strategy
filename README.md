@@ -3,7 +3,7 @@ All the interview practice most(*)asked problems come across top `product based`
 
 <br />
 
-## 🎉 TCS Codevita 9 Qualifiers | Solved overall 3 (2.5+) problems | #2230 Ranked all India (3-4Lakhs Canditates)
+## 🎉 TCS Codevita 9 Qualifiers | Solved overall 3 (2.5+) problems | #2230 Ranked all India (3-4 Lakhs Canditates)
 The **Most implementation + two / more algorithms merged questions** to solve. Bcause I had to maintain the consistency of **code while applying 2 - 3 logics into one single** *codebase*.
 This year the **Question Pattern** was very *tough*. I solved **2 fully, 1 only public cases passed**. I tried my best to give in **4 - 5 Hours.**. You can view **solutions** mentioned in this **Repo**
 
