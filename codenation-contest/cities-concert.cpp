@@ -37,19 +37,6 @@ int bfs(int source, vector<vector<pair<int, int>>> graph, int n, vector<int> A) 
     return minco;
 }
 
-vector<int> solve(vector<int> &A, vector<vector<int> > &B) {
-    int n = A.size() ;
-    vector<vector<pair<int, int>>> grap(n);
-    for(int i = 0; i < (int) B.size(); i++) {
-        grap[B[i][0] - 1].push_back( {B[i][1] - 1, B[i][2]}); // adjacent matrix implementation
-    }
-    vector<int> ans(n);
-    for(int i = 0; i < n; i++){
-        ans[i] = bfs(i, grap, n, A);
-    }
-    return ans ;
-}
-
 int main() {
 	int n;
 	cin >> n;
@@ -57,6 +44,16 @@ int main() {
 	vector<vector<int>> B;
 	cin >> B;
 	
-	solve(A, B);
+	int n = A.size() ;
+        vector<vector<pair<int, int>>> grap(n);
+        for(int i = 0; i < (int) B.size(); i++) {
+	    grap[B[i][0] - 1].push_back( {B[i][1] - 1, B[i][2]}); // adjacent matrix implementation
+        }
+        vector<int> ans(n);
+        for(int i = 0; i < n; i++){
+	    ans[i] = bfs(i, grap, n, A);
+        }
+	
+	cout << ans ;
 }
 
