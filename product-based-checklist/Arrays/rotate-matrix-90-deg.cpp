@@ -9,7 +9,7 @@
 
 using namespace std ;
 
-/* efficient solution in O(1) ex */
+/* efficient solution in O(1) extra space */
 void f(vector<vector<int>> &matrix){
 	int m = matrix.size(), n = matrix[0].size();
 	int row = 0, col = 0, prev = 0, next = 0;
@@ -49,6 +49,19 @@ void f(vector<vector<int>> &matrix){
 	}
 }
 
+/* Second Efficient Solution - BEST APPROCH */
+void f2(vector<vector<int>> &matrix) {
+	int m = matrix.size(), n = matrix[0].size();
+	for(int row = 0 ; row < m; row++){
+		for(int col = row ; col < n; col++){
+			swap(matrix[row][col], matrix[col][row]);
+		}
+	}
+	for(auto &&row : matrix){
+		reverse(row.begin(), row.end());
+	}
+}
+
 
 int main() {
 	srand(time(NULL)); cin.tie(0);
@@ -63,14 +76,15 @@ int main() {
 		}
 	}
 	/* ineffiecient solution for O(M*N) extra space */
-	vector<vector<int>> ans(m, vector<int>(n));
+	/*vector<vector<int>> ans(m, vector<int>(n));
 	for(int row = 0; row < m; row++){
 		for(int col = 0; col < n; col++){
 			ans[row][col] = matrix[m - col - 1][row];
 		}
-	}
+	}*/
+	f2(matrix);
 	cout << "90 deg rotation\n";
-	for(auto &&row : ans){
+	for(auto &&row : matrix){
 		for(auto &&x : row){
 			cout << x << " " ;
 		}
