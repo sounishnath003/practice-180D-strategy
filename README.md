@@ -95,36 +95,36 @@ Subscribe to the channel. :) (sounish nath)
 8. Clone a Linked List with random and next  pointer. 
 
 ## `Day7: (2-pointer) `
-Merge two sorted LinkedLists 
-Find the starting point of the loop. 
-3 sum 
-Trapping rainwater 
-Remove Duplicate from Sorted array 
-Max continuous number of 1�s  
+1. Merge two sorted LinkedLists 
+2. Find the starting point of the loop. 
+3. 3 sum 
+4. Trapping rainwater 
+5. Remove Duplicate from Sorted array 
+6. Max continuous number of 1�s  
 
 ## `Day8: (Greedy)`
-N meeting in one room 
-Activity Selection  
-Greedy algorithm to find minimum number of coins
-Fractional Knapsack Problem 
-Minimum number of platforms required for a railway 
-Job sequencing Problem 
+1. N meeting in one room 
+2. Activity Selection  
+3. Greedy algorithm to find minimum number of coins
+4. Fractional Knapsack Problem 
+5. Minimum number of platforms required for a railway 
+6. Job sequencing Problem 
 
 ## `Day9: (Backtracking) `
-N queens Problem 
-Sudoko 
-M coloring Problem 
-Rat in a Maze 
-Print all Permutations of a string/array 
-Word Break (print all ways)  
+1. N queens Problem 
+2. Sudoko 
+3. M coloring Problem 
+4. Rat in a Maze 
+5. Print all Permutations of a string/array 
+6. Word Break (print all ways)  
 
 ## `Day10: `
-Combination sum-1 
-Combination sum-2 
-Palindrome Partioning 
-Subset Sum-1 
-Subset Sum-2 
-K-th permutation Sequence 
+1. Combination sum-1 
+2. Combination sum-2 
+3. Palindrome Partioning 
+4. Subset Sum-1 
+5. Subset Sum-2 
+6. K-th permutation Sequence 
 
 ## `Day11: (Divide and Conquer) `
 1/N-th root of an integer (use binary search) (square root, cube root, ..)
